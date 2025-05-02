@@ -2,9 +2,9 @@
     "Warren":{
         "content":{
             "art":[               
-              "img/mommyCat.PNG",
-                 "img/daddyCat.PNG",
-                "img/axelCat.PNG"
+              "/public/img/mommyCat.PNG",
+                 "/public/img/daddyCat.PNG",
+                "/public/img/axelCat.PNG"
         ],
             "books":[]        }
     },

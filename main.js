@@ -3,7 +3,7 @@ imgELement.addEventListener('click',contentClick)
 //  Fetch the page data. The page data is set with two main indexs. Warren and Axel. Each index will hold all the specfic data related to the pages content and which kids art we want
 async function getPagedata(){
   try { 
-    const response = await fetch('/data.json')
+    const response = await fetch('/public/data.json')
     if(!response.ok){
        throw new Error(response.status)
     }
