@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right , pink, cornflowerblue, transparent);
+    display:grid;
+    justify-content: center;
+}
+header{
+    background-color: cornflowerblue;
+    margin:10px;
+    font-size: 35px;
+    text-align: center;
+    color: lightcyan;
+    border-bottom: 1px lightcyan inset;
+    box-shadow: 0px 0px 12px 0px   lightcoral;
+}
+
+main{
+    margin: 24px;
+    align-self: center;
+    justify-self: center;
+    overflow: hidden;
+}
+
+main p {
+    margin-top:10px;
+    font-size: 25px;
+    text-align: center;
+    color: lightcyan;
+    width:50%;
+    justify-self: center;
+
+
+}
+img{
+    align-self: center;
+    margin:10px;
+    background:burlywood;
+    padding: 24px;
+    outline: 23px inset wheat
+}
+img:hover{
+    cursor: zoom-in;
+}
+footer{
+    background-color: cornflowerblue;
+    opacity: 95%;
+    display:grid;
+    width:60%;
+    position: fixed;
+    bottom: 0px;
+    justify-self: center;
+    align-items: end;
+    margin:10px;
+    font-size: 25px;
+    color: lightcyan;
+    border-bottom: 1px lightcyan inset;
+    box-shadow: 0px 0px 12px 0px   lightcoral;
+}
+
+footer p{
+    margin: 10px;
+    text-align: center;
+    justify-self: center;
+    align-self: end;
+}

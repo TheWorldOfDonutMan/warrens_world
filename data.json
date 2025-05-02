@@ -1,0 +1,12 @@
+{
+    "Warren":{
+        "content":{
+            "art":[               
+              "img/mommyCat.PNG",
+                 "img/daddyCat.PNG",
+                "img/axelCat.PNG"
+        ],
+            "books":[]        }
+    },
+    "Axel":{}
+}
